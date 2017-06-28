@@ -1,0 +1,35 @@
+@mixin padding($padding-1, $padding-2: null, $padding-3: null, $padding-4: null) {
+  @if (is-null($padding-2) and is-null($padding-3) and is-null($padding-4)) {
+    padding: $padding-1;
+    padding: px2rem($padding-1);
+  } @else if (is-null($padding-3) and is-null($padding-4)) {
+    padding: $padding-1 $padding-2;
+    padding: px2rem($padding-1) px2rem($padding-2);
+  } @else if (is-null($padding-4)) {
+    padding: $padding-1 $padding-2 $padding-3;
+    padding: px2rem($padding-1) px2rem($padding-2) px2rem($padding-3);
+  } @else {
+    padding: $padding-1 $padding-2 $padding-3 $padding-4;
+    padding: px2rem($padding-1) px2rem($padding-2) px2rem($padding-3) px2rem($padding-4);
+  }
+}
+
+@mixin padding-top($padding) {
+  padding-top: $padding;
+  padding-top: px2rem($padding);
+}
+
+@mixin padding-right($padding) {
+  padding-right: $padding;
+  padding-right: px2rem($padding);
+}
+
+@mixin padding-bottom($padding) {
+  padding-bottom: $padding;
+  padding-bottom: px2rem($padding);
+}
+
+@mixin padding-left($padding) {
+  padding-left: $padding;
+  padding-left: px2rem($padding);
+}

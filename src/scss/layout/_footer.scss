@@ -1,0 +1,19 @@
+.l-footer {
+  border-top: 1px solid rgba(#000, .05);
+  @include padding(($gutter * 2), 0, 0);
+
+  .p-footer-nav {
+    @include margin(($gutter * -2), 0, $gutter);
+  }
+
+  .p-footer-widgets {
+    @include margin(0, 0, $gutter);
+  }
+
+  .p-social-nav {
+  }
+
+  .c-copyright {
+    @include padding(($gutter / 2), 0);
+  }
+}

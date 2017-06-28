@@ -1,0 +1,6 @@
+@function strip-unit($value) {
+  @if (is-null($value)) {
+    @return $value;
+  }
+  @return ($value / ($value * 0 + 1));
+}

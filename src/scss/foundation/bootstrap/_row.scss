@@ -1,0 +1,18 @@
+/**
+ * 1. グリッド間の余白をベースラインと揃える
+ * 2. 複数行になったとき、1列になったときに適切な余白がとられるようにする
+ * 3. 2で float の影響が出ないように .row に overflow: hidden を付与する必要がある
+ */
+
+.row {
+  @include margin-right($gutter / 2 * -1);
+  @include margin-left($gutter / 2 * -1);
+  @include margin-bottom($gutter * -1);
+  overflow: hidden;
+}
+
+[class*="col-"] {
+  @include padding-right($gutter / 2);
+  @include padding-left($gutter / 2);
+  @include padding-bottom($gutter);
+}

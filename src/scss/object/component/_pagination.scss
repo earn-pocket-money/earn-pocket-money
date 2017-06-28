@@ -1,0 +1,31 @@
+.c-pagination {
+  text-align: center;
+  font-size: 0;
+
+  .page-numbers {
+    margin: 0 2px;
+    display: inline-flex;
+    font-size: 14px;
+    line-height: 1;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .current {
+    background-color: #333;
+    color: #fff;
+  }
+
+  a.page-numbers, .dots {
+    background-color: #eee;
+    color: #999;
+
+    &:hover, &:active, &:focus {
+      background-color: #aaa;
+      color: #fff;
+    }
+  }
+}

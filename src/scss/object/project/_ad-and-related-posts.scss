@@ -1,0 +1,23 @@
+.p-ad-and-related-posts {
+  @include margin(($gutter * 1.5), 0, 0);
+
+  &__title {
+    @include margin(0, 0, $gutter);
+    font-weight: bold;
+    @include font-size($base-font-size * 1.75);
+    line-height: 1.3;
+  }
+
+  &__ad {
+    & + .p-ad-and-related-posts__ad {
+      @include margin-top($gutter);
+    }
+
+    & + .p-ad-and-related-posts__related-posts {
+      @include margin-top($gutter);
+    }
+  }
+
+  &__related-posts {
+  }
+}

@@ -1,0 +1,73 @@
+.p-comments {
+  $comment-padding: $gutter;
+  $border-radius: 4px;
+
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  .comment,
+  .pingback {
+    margin: 0;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: $border-radius;
+    @include padding($comment-padding);
+
+    & + .comment,
+    & + .pingback {
+      margin-top: 1em;
+    }
+  }
+
+  .pingback {
+    a {
+      color: $color-text;
+    }
+
+    .comment-edit-link {
+      color: #999;
+      @include font-size($base-font-size - 4);
+      text-decoration: underline;
+    }
+  }
+
+  .children {
+    @include margin($gutter, ($gutter * -1 - 1), ($gutter * -1 - 1), 0);
+    list-style: none;
+    padding: 0;
+
+    .comment {
+      border-radius: $border-radius 0 0 0;
+    }
+  }
+
+  .comment-author {
+    @include font-size($base-font-size - 2);
+
+    &, a {
+      color: $color-text;
+    }
+  }
+
+  .avatar {
+    margin-top: -3px;
+    margin-right: 1em;
+    border-radius: 100%;
+  }
+
+  .comment-metadata {
+    margin: .5em 0 0;
+    @include font-size($base-font-size - 4);
+
+    &, a {
+      color: #999;
+    }
+  }
+
+  .comment-content {
+    margin: 1em 0 0;
+
+    @include content();
+  }
+}

@@ -1,0 +1,18 @@
+.c-entries {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+
+    > a {
+      display: block;
+      color: $color-text;
+      text-decoration: none;
+      @include padding($gutter, 0);
+    }
+  }
+}

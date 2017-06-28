@@ -1,0 +1,13 @@
+/**
+ * (主に)タブレットの場合に左右に余白があきすぎるのが気になるので
+ * PCサイズ以下の場合は幅指定を解除する
+ */
+.container {
+  @include padding-right($gutter / 2);
+  @include padding-left($gutter / 2);
+
+  @media (max-width: 1199px) {
+    max-width: none;
+    width: auto;
+  }
+}

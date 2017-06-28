@@ -1,0 +1,39 @@
+.p-footer-nav {
+  @include font-size($base-font-size - 2);
+
+  .menu {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+    @media (min-width: 992px) {
+      @include padding(($gutter / 2), 0, 0);
+      display: table;
+      width: 100%;
+    }
+
+    > .menu-item {
+      margin: 0;
+      border-bottom: 1px solid rgba(#000, .05);
+      padding: 0;
+
+      @media (min-width: 992px) {
+        display: table-cell;
+        border-bottom: none;
+      }
+
+      > a {
+        display: inline-block;
+        color: $color-text;
+        padding: .5em 0;
+        text-decoration: none;
+
+        @media (min-width: 992px) {
+          display: block;
+          padding: 1em;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

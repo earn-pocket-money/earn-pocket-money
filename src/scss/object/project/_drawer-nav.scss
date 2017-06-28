@@ -1,0 +1,47 @@
+.p-drawer-nav {
+  background-color: $color-text;
+  transition: opacity .1s ease-in;
+
+  &[aria-hidden="true"] {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  &[aria-hidden="false"] {
+    opacity: 1;
+    height: auto;
+    visibility: visible;
+  }
+
+  .menu {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+
+  .sub-menu {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu-item {
+    margin: 0;
+    border-top: 1px solid lighten($color-text, 10%);
+    padding: 0;
+
+    > a {
+      display: block;
+      color: #fff;
+      padding: 1em;
+      text-decoration: none;
+    }
+
+    > .sub-menu {
+      border-left: 1px solid lighten($color-text, 10%);
+      margin-left: 1em;
+    }
+  }
+}

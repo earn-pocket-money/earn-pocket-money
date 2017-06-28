@@ -1,0 +1,109 @@
+.p-social-nav {
+  .menu {
+    @include clearfix();
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu-item {
+    position: relative;
+    margin: 0 1em 0 0;
+    float: left;
+    padding: 0;
+
+    > a {
+      display: block;
+      font-size: 0;
+      overflow: hidden;
+      text-decoration: none;
+
+      &:before {
+        content: "\f0ac";
+        display: inline-block;
+        font: normal normal normal 28px/1 FontAwesome;
+        -webkit-font-smoothing: antialiased;
+      }
+    }
+
+    a[href*="wordpress.org"]:before {
+      content: "\f19a";
+      color: #21759b;
+    }
+
+    a[href*="plus.google.com"]:before {
+      content: "\f2b3";
+      color: #dc4b38;
+    }
+
+    a[href*="github.com"]:before {
+      content: "\f09b";
+      color: #171515;
+    }
+
+    a[href*="twitter.com"]:before {
+      content: "\f081";
+      color: #1ca1f3;
+    }
+
+    a[href*="facebook.com"]:before {
+      content: "\f230";
+      color: #3b5998
+    }
+
+    a[href*="linkedin.com"]:before {
+      content: "\f08c";
+      color: #0177b5;
+    }
+
+    a[href*="pinterest.com"]:before {
+      content: "\f0d2";
+      color: #bd081c;
+    }
+
+    a[href*="flickr.com"]:before {
+      content: "\f16e";
+      color: #0063dc;
+    }
+
+    a[href*="youtube.com"]:before {
+      content: "\f166";
+      color: #cd201f;
+    }
+
+    a[href*="instagram.com"]:before {
+      content: "\f16d";
+      color: #8a3ab9;
+    }
+
+    a[href*="codepen.io"]:before {
+      content: "\f1cb";
+      color: #000;
+    }
+
+    a[href*="skype.com"]:before {
+      content: "\f17e";
+      color: #12a5f4;
+    }
+
+    a[href*="getpocket.com"]:before {
+      content: "\f265";
+      color : #ee4056;
+    }
+
+    a[href*="tumblr.com"]:before {
+      content: "\f174";
+      color: #35465c;
+    }
+
+    a[href*="medium.com"]:before {
+      content: "\f23a";
+      color: #00ab6c;
+    }
+
+    a[href$="/feed"]:before {
+      content: "\f09e";
+      color: #ff991e;
+    }
+  }
+}

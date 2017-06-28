@@ -1,0 +1,12 @@
+.home {
+  .p-front-page-recent-entries {
+  }
+
+  .p-front-page-recommend {
+    @include margin-top($gutter * 2);
+  }
+
+  .p-front-page-ranking {
+    @include margin-top($gutter * 2);
+  }
+}

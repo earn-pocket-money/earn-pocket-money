@@ -1,0 +1,51 @@
+.p-affiliate-tag {
+  border: 1px solid #ddd;
+  @include padding($gutter);
+
+  &__title {
+    @include margin(0, 0, $base-font-size);
+    border-bottom: 1px solid #ddd;
+    @include font-size($base-font-size + 2);
+    font-weight: bold;
+    padding: 0 0 8px;
+  }
+
+  &__star {
+    color: #f7b900;
+    @include font-size($base-font-size - 2);
+  }
+
+  &__content {
+    @include margin(0, 0, $gutter);
+    overflow: hidden;
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__detail-link-wrapper, &__affiliate-text-wrapper {
+    > a {
+      display: block;
+      border-radius: 4px;
+      color: #fff;
+      @include padding(($base-font-size / 2), $base-font-size);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-decoration: none;
+    }
+  }
+
+  &__detail-link-wrapper {
+    > a {
+      background-color: #039be6;
+    }
+  }
+
+  &__affiliate-text-wrapper {
+    > a {
+      background-color: #e53935;
+    }
+  }
+}

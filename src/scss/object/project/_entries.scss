@@ -1,0 +1,13 @@
+.p-entries {
+  &__title {
+    margin: 0;
+    border-bottom: 1px solid #222;
+    @include font-size($base-font-size);
+    font-weight: bold;
+    padding: 0 0 .5em;
+
+    & + p {
+      @include margin-top($gutter);
+    }
+  }
+}

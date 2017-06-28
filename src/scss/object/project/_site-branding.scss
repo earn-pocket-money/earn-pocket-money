@@ -1,0 +1,22 @@
+.p-site-branding {
+  &__title {
+    margin: 0;
+    @include font-size($base-font-size * 1.5);
+    line-height: 1.25;
+
+    > a {
+      color: $color-text;
+      text-decoration: none;
+    }
+  }
+
+  &__description {
+    display: none;
+    margin-top: 5px;
+    @include font-size($base-font-size - 2);
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+}

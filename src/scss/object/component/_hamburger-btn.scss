@@ -1,0 +1,55 @@
+.c-hamburger-btn {
+  $height: 2px;
+
+  &__bars {
+    position: relative;
+    cursor: pointer;
+    height: ($height * 9);
+    width: 32px;
+  }
+
+  &__bar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: $color-text;
+    height: $height;
+    transition: all .1s ease-in;
+
+
+    &:nth-child(1) {
+      top: 0;
+    }
+
+    &:nth-child(2) {
+      top: ($height * 4);
+    }
+
+    &:nth-child(3) {
+      top: ($height * 8);
+    }
+  }
+
+  &__label {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  &[aria-expanded="true"] {
+    .c-hamburger-btn__bar {
+      &:nth-child(1) {
+        top: 50%;
+        transform: rotate(45deg);
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:nth-child(3) {
+        top: 50%;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
