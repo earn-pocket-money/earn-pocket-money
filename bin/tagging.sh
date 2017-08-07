@@ -33,7 +33,8 @@ rm -rf .editorconfig .gitignore .travis bin src gulpfile.js package.json yarn.lo
 ls -la
 
 git add -A
-git commit -m "Release branch update from travis $TRAVIS_COMMIT"
+git commit -m "[ci skip] Release branch update from travis $TRAVIS_COMMIT"
+git push origin release
 
 git tag "$TAGNAME"
-git push origin release --tags
+git push origin --tags
