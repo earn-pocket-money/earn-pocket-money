@@ -21,7 +21,7 @@ git clone -b release --quiet https://github.com/earn-pocket-money/earn-pocket-mo
 cd release
 ls | xargs rm -rf
 ls -la
-rsync -auz ../ .
+rsync -auz --exclude="release" ../ .
 rm -rf .editorconfig .gitignore .travis.yml src gulpfile.js package.json yarn.lock
 ls -la
 
