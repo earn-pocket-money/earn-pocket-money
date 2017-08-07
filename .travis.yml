@@ -31,8 +31,6 @@ before_script:
 script:
 - yarn run gulp build
 - ls -la style.css index.php assets
-after_success:
-- bash ./bin/tagging.sh
 before_deploy:
 - npm run gulp zip
 deploy:
@@ -42,5 +40,4 @@ deploy:
   file: 'earn-pocket-money.zip'
   on:
     tags: true
-    branches: release
     repo: earn-pocket-money/earn-pocket-money

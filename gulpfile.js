@@ -136,8 +136,6 @@ gulp.task('zip', ['build'], function(){
   return gulp.src(
       [
         './**',
-        '!bin',
-        '!bin/**',
         '!.*',
         '!.*/**',
         '!gulpfile.js',
