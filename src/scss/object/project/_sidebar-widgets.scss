@@ -1,9 +1,0 @@
-.p-sidebar-widgets {
-  .c-widget {
-    margin: 0;
-
-    & + .c-widget {
-      @include margin($gutter, 0, 0);
-    }
-  }
-}
