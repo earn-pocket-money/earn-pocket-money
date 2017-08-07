@@ -29,7 +29,7 @@ cd release
 ls | xargs rm -rf
 ls -la
 rsync -auz --exclude="release" ../ .
-rm -rf .editorconfig .gitignore .travis.yml .travis bin src gulpfile.js package.json yarn.lock node_modules earn-pocket-money.zip
+rm -rf .editorconfig .gitignore .travis bin src gulpfile.js package.json yarn.lock node_modules earn-pocket-money.zip
 ls -la
 
 git add -A

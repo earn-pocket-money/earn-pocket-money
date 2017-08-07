@@ -31,6 +31,8 @@ script:
 - ls -la style.css index.php assets
 after_success:
 - bash ./bin/tagging.sh
+before_deploy:
+- npm run gulp zip
 deploy:
   provider: releases
   api_key:
