@@ -17,18 +17,16 @@ if [[ "7" != "$TRAVIS_PHP_VERSION" ]]; then
 	exit
 fi
 
-git clone -b release --quiet https://github.com/earn-pocket-money/earn-pocket-money.git release
+git clone -b release --quiet git@github.com:earn-pocket-money/earn-pocket-money.git release
 cd release
 ls | xargs rm -rf
 ls -la
 rsync -auz --exclude="release" ../ .
-rm -rf .editorconfig .gitignore .travis.yml src gulpfile.js package.json yarn.lock
+rm -rf .editorconfig .gitignore .travis.yml src gulpfile.js package.json yarn.lock node_modules
 ls -la
 
 git add -A
-git status
 git commit -m "[ci skip] release branch update from travis $TRAVIS_COMMIT"
-git push origin release
 
 git tag $(wp theme get earn-pocket-money --field=version)
-git push origin --tags
+git push origin release --tags
