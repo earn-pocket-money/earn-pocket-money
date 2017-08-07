@@ -13,6 +13,7 @@ var autoprefixer = require('autoprefixer');
 var rimraf       = require('rimraf');
 var watchify     = require("watchify");
 var syncy        = require('syncy');
+var zip          = require('gulp-zip');
 
 var dir = {
   src: {
@@ -126,4 +127,26 @@ gulp.task('setWatch', function () {
 gulp.task('default', ['setWatch', 'build', 'browsersync'], function() {
   gulp.watch([ dir.src.css + '/**/*.scss' ], ['css']);
   gulp.watch([ dir.src.images + '/**/*' ], ['copy-images']);
+});
+
+/**
+ * Creates the zip file
+ */
+gulp.task('zip', ['build'], function(){
+  return gulp.src(
+      [
+        './**',
+        '!bin',
+        '!bin/**',
+        '!.*',
+        '!.*/**',
+        '!gulpfile.js',
+        '!package.json',
+        '!yarn.lock',
+        '!node_modules',
+        '!node_modules/**'
+      ]
+    )
+    .pipe(zip('earn-pocket-money.zip'))
+    .pipe(gulp.dest('./'));
 });

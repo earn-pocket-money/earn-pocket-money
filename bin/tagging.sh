@@ -29,11 +29,11 @@ cd release
 ls | xargs rm -rf
 ls -la
 rsync -auz --exclude="release" ../ .
-rm -rf .editorconfig .gitignore .travis.yml .travis bin src gulpfile.js package.json yarn.lock node_modules
+rm -rf .editorconfig .gitignore .travis.yml .travis bin src gulpfile.js package.json yarn.lock node_modules earn-pocket-money.zip
 ls -la
 
 git add -A
-git commit -m "[ci skip] release branch update from travis $TRAVIS_COMMIT"
+git commit -m "Release branch update from travis $TRAVIS_COMMIT"
 
 git tag "$TAGNAME"
 git push origin release --tags

@@ -31,3 +31,11 @@ script:
 - ls -la style.css index.php assets
 after_success:
 - bash ./bin/tagging.sh
+deploy:
+  provider: releases
+  api_key:
+    secure: T2/m87X6r7DYS+8zcPNCFZJBHCS1EwerEzylGjtZHiWAxwNIAY7vyYqVtWhnLTzAZ2Qj14grgmlmILT25bxAcf2R6b/V8gwLBxmQINDEy9acaP+31umHZrLgU98RLsqN6bXdv8ZzSL9U3QCTkJOvSd7gIvXv0V60X8Qcd3fHCseGUPo3jdK1GTd/cKnNOWnYA0SYnrLOhJt/G7GBcKP4d4k7au8cjkIu1e38B+nKE6iwrfcZDxfg9T/kosHS4nORyuYp6WPklB9g5Ab4PSrgbPHg/4kJs50XOdqAKuxTeFm9sLLwNzEJSDvSJ5AYrP7jyHBppKfxUT/H3UgnYgUlb9q/ynV87sbVkitAibCgVaT4nm42lYJdMDJjOcziS3ssHbJyHGPnMMaKB1DnKqz4U2JHZfUgCKmnMcXgQzo0lnZkx+y+mveIAFdn8gqwUpleowoX/BlS+s3xrOzE0Bfq6FYRRttWk0l1JxBygv8l5NlsN0s3UPNicHhYDSSGdPtZ8kaXMKgDjVM7xKjO7RcLiOJvZBoFsM8EvM1uFqppvTh0jDRe0NcinrHKWG1qGMpV5UdMBpILYNSToNfqzzajbMtgphH69RFYOWZC0xxRl4z89J8ppmGMesUtyKyIQAuVXH5nbnbBFQtLWUrT7/NHTbKdHexhkAOvNzjET2gox7M=
+  file: 'earn-pocket-money.zip'
+  on:
+    tags: true
+    repo: earn-pocket-money/earn-pocket-money

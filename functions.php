@@ -5,6 +5,7 @@ $includes = array(
 	'/inc/customizer-framework',
 	'/inc/oembed-blog-card',
 	'/inc/ogp',
+	'/inc/github-theme-updater',
 	'/functions',
 	'/shortcodes',
 );
@@ -22,6 +23,11 @@ foreach ( $includes as $include ) {
 if ( ! isset( $content_width ) ) {
 	$content_width = apply_filters( 'earn_pocket_money_content_width', 1152 );
 }
+
+/**
+ * GitHub Theme Updater
+ */
+new Earn_Pocket_Money_GitHub_Theme_Updater( 'earn-pocket-money', 'earn-pocket-money', 'earn-pocket-money' );
 
 /**
  * Sets up the theme
