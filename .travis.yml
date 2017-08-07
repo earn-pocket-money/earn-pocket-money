@@ -33,12 +33,12 @@ script:
 - ls -la style.css index.php assets
 before_deploy:
 - npm run gulp zip
-- ls -la
 deploy:
   provider: releases
   api_key:
     secure: Pxn5UYQcN/XpeByMkfmH1AvGAeayKYue91StXXKfGIrfqt2elag5Tni1j/7dm9JEtafX8Y843vqVAJm6eU++o/lvTlm0Hm+SFY4p5Z2Y+xoWUDdfL97aac5jTiBV3nd65hU5Vdx7Iq71NKwUqCzT1iFtHFxNPh1p9ijb0236a0dAs508f+Kgi8nMSlotoAkPcY0pTZp5+Syl7RpwtHbjEBuJ5MYJ8elUrXJbaxiKwPzmiDviznX0XOOXCuKlzjqXeNW43ppMEN7QihlznjGTmNRbPsTwXGT2Grk/sjcg0bzzXSadfIEoSatllEccz8aAczB4SXhJsX9c5tAiYUf61+hiqmgjjo9KkonC7bSqxIK7WYZGMDob0E4SfCU6BgXA3mzcoYj8GJE/ioi5Ds1Bz6oU09YrIvS05ai6+cpo1GLU3SIfntvjDugjDcc+gOj/jHdscfTZDz7JQM41roYF8ipCnEGZqmnptx94EQc+Dm70sHZEae3YjnqBbFGFMxo6v7fTOr8gw/6Cdde5ADQJFfOsdzI3Sc0h4Rw+wFPuYJbSSwXa+ohmXjpQRoeNVLwYn3tfT0xL+wAIJ8Rw9nL43OZutrxiLa/d1uEGF+4DR0BrBFobKQjAdd3zKFH1pcCXsrSjiPqlA9BgfKQ9Cg0I07lvCyt0Ao2XS8enDAmeZas=
   file: earn-pocket-money.zip
+  skip_cleanup: true
   on:
     tags: true
     repo: earn-pocket-money/earn-pocket-money
