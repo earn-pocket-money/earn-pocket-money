@@ -41,4 +41,5 @@ deploy:
   file: 'earn-pocket-money.zip'
   on:
     tags: true
+    branches: release
     repo: earn-pocket-money/earn-pocket-money
