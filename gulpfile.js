@@ -138,6 +138,8 @@ gulp.task('zip', ['build'], function(){
         './**',
         '!.*',
         '!.*/**',
+        '!src',
+        '!src/**',
         '!gulpfile.js',
         '!package.json',
         '!yarn.lock',
