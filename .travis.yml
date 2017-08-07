@@ -33,5 +33,6 @@ before_script:
 script:
 - yarn run gulp build
 - ls -la style.css index.php assets
+- ~/wp-cli.phar --path="path/to/wordpress" theme activate earn-pocket-money
 after_success:
 - bash ./bin/tagging.sh
