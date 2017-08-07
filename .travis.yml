@@ -19,8 +19,7 @@ cache:
   directories:
   - node_modules
 before_install:
-- openssl aes-256-cbc -K $encrypted_9006bbbd4c7b_key -iv $encrypted_9006bbbd4c7b_iv
--in github_deploy_key.enc -out github_deploy_key -d
+- openssl aes-256-cbc -K $encrypted_9006bbbd4c7b_key -iv $encrypted_9006bbbd4c7b_iv -in github_deploy_key.enc -out github_deploy_key -d
 install:
 - nvm install 6
 - npm install -g yarn
