@@ -33,6 +33,7 @@ script:
 - ls -la style.css index.php assets
 before_deploy:
 - npm run gulp zip
+- ls -la earn-pocket-money.zip
 deploy:
   provider: releases
   api_key:
