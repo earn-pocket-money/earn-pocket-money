@@ -17,8 +17,7 @@ if [[ "7" != "$TRAVIS_PHP_VERSION" ]]; then
 	exit
 fi
 
-curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-TAGNAME=$(php wp-cli.phar theme get earn-pocket-money --field=version)
+TAGNAME=$(php ~/wp-cli.phar theme get earn-pocket-money --field=version)
 GIT_TAG_EXISTS=$(git tag -l '$TAGNAME')
 if [ -n "$GIT_TAG_EXISTS" ]; then
   echo "tag $TAGNAME already exists."
