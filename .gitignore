@@ -6,3 +6,4 @@ assets/
 vendor/
 packages/
 *.sql
+release/
