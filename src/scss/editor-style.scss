@@ -6,6 +6,10 @@
 @import 'object/component/*';
 @import 'object/project/*';
 
+html {
+  font-size: $base-font-size;
+}
+
 body#tinymce {
   margin: 10px !important;
 }
