@@ -16,12 +16,6 @@ foreach ( $includes as $include ) {
 }
 
 /**
- * Loads text domain
- */
-load_textdomain( 'tgmpa', get_template_directory() . '/languages/tgmpa/tgmpa-' . get_locale() . '.mo' );
-load_theme_textdomain( 'earn-pocket-money', get_template_directory() . '/languages' );
-
-/**
  * Sets $content_width
  *
  * @see https://wpdocs.osdn.jp/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E5%B9%85
@@ -40,6 +34,7 @@ new Earn_Pocket_Money_GitHub_Theme_Updater( 'earn-pocket-money', 'earn-pocket-mo
  */
 if ( ! function_exists( 'earn_pocket_money_init' ) ) {
 	function earn_pocket_money_init() {
+		load_textdomain( 'tgmpa', get_template_directory() . '/languages/tgmpa/tgmpa-' . get_locale() . '.mo' );
 		load_theme_textdomain( 'earn-pocket-money', get_template_directory() . '/languages' );
 
 		add_theme_support( 'title-tag' );
