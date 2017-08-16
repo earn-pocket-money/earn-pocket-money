@@ -1,0 +1,838 @@
+# Copyright (C) 2017 MDN
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: earn-pocket-money 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/earn-pocket-money\n"
+"POT-Creation-Date: 2017-08-16 00:41:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "ページが見つかりませんでした。"
+msgstr ""
+
+#: 404.php:16
+msgid "お探しのページは移動したか削除されています。"
+msgstr ""
+
+#: comments.php:14
+msgid "この記事へのコメント"
+msgstr ""
+
+#: comments.php:18 comments.php:41
+msgid "コメントナビゲーション"
+msgstr ""
+
+#: comments.php:21 comments.php:44
+msgid "古いコメント"
+msgstr ""
+
+#: comments.php:24 comments.php:47
+msgid "新しいコメント"
+msgstr ""
+
+#: comments.php:56
+msgid "コメントは受け付けていません"
+msgstr ""
+
+#: functions/affiliate-tag-list-page.php:9
+msgid "ショートコード"
+msgstr ""
+
+#: functions/customizer.php:26
+msgid "キャッチフレーズを表示する"
+msgstr ""
+
+#: functions/customizer.php:45
+msgid "デザイン"
+msgstr ""
+
+#: functions/customizer.php:54
+msgid "全般"
+msgstr ""
+
+#: functions/customizer.php:62 functions/customizer.php:138
+#: functions/customizer.php:157 functions/customizer.php:220
+msgid "背景色"
+msgstr ""
+
+#: functions/customizer.php:72 functions/customizer.php:177
+#: functions/customizer.php:230
+msgid "リンク文字色"
+msgstr ""
+
+#: functions/customizer.php:82
+msgid "フォント"
+msgstr ""
+
+#: functions/customizer.php:85
+msgid "ゴシック"
+msgstr ""
+
+#: functions/customizer.php:86
+msgid "明朝"
+msgstr ""
+
+#: functions/customizer.php:95
+msgid "基本文字サイズ"
+msgstr ""
+
+#: functions/customizer.php:112
+msgid "サムネイル、記事中の画像を角丸にする"
+msgstr ""
+
+#: functions/customizer.php:120
+msgid "デフォルトサムネイル画像"
+msgstr ""
+
+#: functions/customizer.php:121
+msgid "記事のアイキャッチ画像が未設定の場合に使用されます。"
+msgstr ""
+
+#: functions/customizer.php:130
+msgid "ヘッダー"
+msgstr ""
+
+#: functions/customizer.php:149 functions/widgets.php:17
+#: functions/widgets.php:19
+msgid "フッター"
+msgstr ""
+
+#: functions/customizer.php:167
+msgid "文字色"
+msgstr ""
+
+#: functions/customizer.php:187
+msgid "フッターカラム数（PC）"
+msgstr ""
+
+#: functions/customizer.php:190
+msgid "4カラム"
+msgstr ""
+
+#: functions/customizer.php:191
+msgid "3カラム"
+msgstr ""
+
+#: functions/customizer.php:192
+msgid "2カラム"
+msgstr ""
+
+#: functions/customizer.php:201
+msgid "copyright"
+msgstr ""
+
+#: functions/customizer.php:203
+msgid "HTML 使用可"
+msgstr ""
+
+#: functions/customizer.php:212
+msgid "グローバルナビゲーション"
+msgstr ""
+
+#: functions/customizer.php:241 functions/customizer.php:250
+msgid "関連記事＆広告"
+msgstr ""
+
+#: functions/customizer.php:249
+msgid "タイトル"
+msgstr ""
+
+#: functions/customizer.php:258
+msgid "関連記事を表示しない"
+msgstr ""
+
+#: functions/customizer.php:280
+msgid "SEO"
+msgstr ""
+
+#: functions/customizer.php:289
+msgid "OGP"
+msgstr ""
+
+#: functions/customizer.php:297
+msgid "デフォルト OGP 画像"
+msgstr ""
+
+#: functions/customizer.php:298
+msgid ""
+"Facebook で投稿した際に表示される画像です。投稿した記事にアイキャッチ画像が設"
+"定されている場合はアイキャッチ画像が使用されます。"
+msgstr ""
+
+#: functions/customizer.php:307
+msgid "Twitter カード"
+msgstr ""
+
+#: functions/customizer.php:308
+msgid "Twitter カードの利用には URL の申請が必要です。"
+msgstr ""
+
+#: functions/customizer.php:316
+msgid "twitter:card"
+msgstr ""
+
+#: functions/customizer.php:317
+msgid "表示される Twitter カードのフォーマット"
+msgstr ""
+
+#: functions/customizer.php:330
+msgid "twitter:site"
+msgstr ""
+
+#: functions/customizer.php:331
+msgid "サイトの Twitter アカウント名。@username の形式で入力してください。"
+msgstr ""
+
+#: functions/customizer.php:341
+msgid "Google Analytics"
+msgstr ""
+
+#: functions/customizer.php:349
+msgid "Google Analytics コード"
+msgstr ""
+
+#: functions/customizer.php:358
+msgid "Google Search Console"
+msgstr ""
+
+#: functions/customizer.php:366
+msgid "Google Search Console meta タグ"
+msgstr ""
+
+#: functions/customizer.php:375
+msgid "その他"
+msgstr ""
+
+#: functions/customizer.php:383
+msgid "外部リンクに rel=\"nofollow\" を付与する"
+msgstr ""
+
+#: functions/customizer.php:404
+msgid "ディスカッション"
+msgstr ""
+
+#: functions/customizer.php:412
+msgid "コメントエリアを表示しない"
+msgstr ""
+
+#: functions/scf.php:25 functions/scf.php:42
+msgid "メインビジュアル"
+msgstr ""
+
+#: functions/scf.php:27
+msgid "1280px × 720px 推奨"
+msgstr ""
+
+#: functions/scf.php:44
+msgid "768px × 576px 推奨"
+msgstr ""
+
+#: functions/scf.php:59 functions/scf.php:180 functions.php:88
+#: template-parts/recommend.php:9
+msgid "おすすめ記事"
+msgstr ""
+
+#: functions/scf.php:76 functions/scf.php:164 functions.php:81
+msgid "ランキング"
+msgstr ""
+
+#: functions/scf.php:93
+msgid "表示スタイル"
+msgstr ""
+
+#: functions/scf.php:97
+msgid "フォーマットして表示"
+msgstr ""
+
+#: functions/scf.php:98
+msgid "アフィリエイトバナー広告のみ表示"
+msgstr ""
+
+#: functions/scf.php:99
+msgid "アフィリエイトテキスト広告のみ表示"
+msgstr ""
+
+#: functions/scf.php:107
+msgid "スター"
+msgstr ""
+
+#: functions/scf.php:111
+msgid "なし"
+msgstr ""
+
+#: functions/scf.php:112
+msgid "1つ"
+msgstr ""
+
+#: functions/scf.php:113
+msgid "2つ"
+msgstr ""
+
+#: functions/scf.php:114
+msgid "3つ"
+msgstr ""
+
+#: functions/scf.php:115
+msgid "4つ"
+msgstr ""
+
+#: functions/scf.php:116
+msgid "5つ"
+msgstr ""
+
+#: functions/scf.php:124
+msgid "アフィリエイトバナー広告"
+msgstr ""
+
+#: functions/scf.php:132
+msgid "アフィリエイトテキスト広告"
+msgstr ""
+
+#: functions/scf.php:140
+msgid "詳細ページの URL"
+msgstr ""
+
+#: functions/scf.php:148
+msgid "詳細ページリンクボタンのテキスト"
+msgstr ""
+
+#: functions/scf.php:207
+msgid "キーワード"
+msgstr ""
+
+#: functions/scf.php:214
+msgid "ディスクリプション"
+msgstr ""
+
+#: functions/widgets.php:7 functions/widgets.php:9
+msgid "サイドバー"
+msgstr ""
+
+#: functions/widgets.php:27
+msgid "投稿記事タイトル下（PC向け広告用）"
+msgstr ""
+
+#: functions/widgets.php:29
+msgid "ワイドバナー広告もしくはレスポンシブ広告1つの配置を推奨"
+msgstr ""
+
+#: functions/widgets.php:37
+msgid "投稿記事タイトル下（モバイル向け広告用）"
+msgstr ""
+
+#: functions/widgets.php:39 functions/widgets.php:69
+msgid "レクタングル広告もしくはレスポンシブ広告1つの配置を推奨"
+msgstr ""
+
+#: functions/widgets.php:47
+msgid "投稿記事本文下（PC向け広告用、1カラム）"
+msgstr ""
+
+#: functions/widgets.php:49
+msgid "レクタングル広告1つの配置を推奨"
+msgstr ""
+
+#: functions/widgets.php:57
+msgid "投稿記事本文下（PC向け広告用、2カラム）"
+msgstr ""
+
+#: functions/widgets.php:59
+msgid "レクタングル広告2つの配置を推奨"
+msgstr ""
+
+#: functions/widgets.php:67
+msgid "投稿記事本文下（モバイル向け広告用）"
+msgstr ""
+
+#: functions.php:65
+msgid "グローバルナビゲーション (For PC)"
+msgstr ""
+
+#: functions.php:66
+msgid "ドロワーナビゲーション (For Mobile)"
+msgstr ""
+
+#: functions.php:67
+msgid "フッターナビゲーション"
+msgstr ""
+
+#: functions.php:68
+msgid "SNS ナビゲーション (ヘッダー)"
+msgstr ""
+
+#: functions.php:69
+msgid "SNS ナビゲーション (フッター)"
+msgstr ""
+
+#: functions.php:75
+msgid "アフィリエイトタグ"
+msgstr ""
+
+#: inc/breadcrumbs/inc/front-page.php:27
+msgid "ホーム"
+msgstr ""
+
+#: inc/breadcrumbs/inc/front-page.php:29
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs/inc/not-found.php:10
+msgid "ページが見つかりませんでした"
+msgstr ""
+
+#: inc/breadcrumbs/inc/search.php:12
+msgid "「%s」の検索結果"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:920
+#: inc/class-tgm-plugin-activation.php:2626
+#: inc/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1214
+#: inc/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: index.php:18
+msgid "記事一覧"
+msgstr ""
+
+#: index.php:21
+msgid "の記事一覧"
+msgstr ""
+
+#: index.php:42
+msgid "投稿がありません。"
+msgstr ""
+
+#: page-templats/front-page.php:47
+msgid "最新記事"
+msgstr ""
+
+#: search.php:18
+msgid "「%1$s」の検索結果"
+msgstr ""
+
+#: search.php:40
+msgid "見つかりませんでした。"
+msgstr ""
+
+#: template-parts/link-pages.php:9
+msgid "Posts navigation"
+msgstr ""
+
+#: template-parts/pagination.php:10
+msgid "Previous"
+msgstr ""
+
+#: template-parts/pagination.php:11
+msgid "Next"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "earn-pocket-money"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"書籍「<a href=\"http://amzn.asia/g3UzuIH\">あなたもアフィリエイト✕アドセンス"
+"で稼げる! はじめてのWordPress本格ブログ運営法</a>」の特典テーマです。本書内で"
+"はWordPress」ブログの運営法や、アフィリエイトなどによる収益化情報が解説されて"
+"います。"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MDN"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mdn.co.jp/di/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "空ページ"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "フロントページ"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "ヘッダー・フッターのみ"
+msgstr ""
