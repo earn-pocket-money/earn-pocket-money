@@ -19,4 +19,10 @@
       display: block;
     }
   }
+
+  .custom-logo {
+    @media (max-width: 767px) {
+      height: auto !important;
+    }
+  }
 }
