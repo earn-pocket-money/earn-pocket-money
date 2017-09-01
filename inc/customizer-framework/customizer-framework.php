@@ -1,8 +1,8 @@
 <?php
-foreach ( glob( __DIR__ . '/app/controller/*.php' ) as $file ) {
+foreach ( glob( dirname( __FILE__ ) . '/app/controller/*.php' ) as $file ) {
 	include_once( $file );
 }
-foreach ( glob( __DIR__ . '/app/controller/control/*.php' ) as $file ) {
+foreach ( glob( dirname( __FILE__ ) . '/app/controller/control/*.php' ) as $file ) {
 	include_once( $file );
 }
 

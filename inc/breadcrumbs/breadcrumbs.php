@@ -1,7 +1,7 @@
 <?php
-include_once( __DIR__ . '/abstract-breadcrumbs.php' );
+include_once( dirname( __FILE__ ) . '/abstract-breadcrumbs.php' );
 
-foreach ( glob( __DIR__ . '/inc/*.php' ) as $file ) {
+foreach ( glob( dirname( __FILE__ ) . '/inc/*.php' ) as $file ) {
 	include_once( $file );
 }
 

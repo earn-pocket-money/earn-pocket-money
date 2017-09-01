@@ -1,5 +1,5 @@
 <?php
-foreach ( glob( __DIR__ . '/app/model/*.php' ) as $file ) {
+foreach ( glob( dirname( __FILE__ ) . '/app/model/*.php' ) as $file ) {
 	include_once( $file );
 }
 
