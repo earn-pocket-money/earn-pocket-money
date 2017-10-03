@@ -70,12 +70,12 @@ abstract class Earn_Pocket_Money_OGP_Abstract_Controller {
 			}
 		}
 
-		$description = wp_trim_words( wp_strip_all_tags( $post->post_excerpt ) );
+		$description = wp_trim_words( wp_strip_all_tags( strip_shortcodes( $post->post_excerpt ) ) );
 		if ( $description ) {
 			return $description;
 		}
 
-		$description = wp_trim_words( wp_strip_all_tags( $post->post_content ) );
+		$description = wp_trim_words( wp_strip_all_tags( strip_shortcodes( $post->post_content ) ) );
 		if ( $description ) {
 			return $description;
 		}
