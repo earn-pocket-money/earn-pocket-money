@@ -35,6 +35,9 @@
 	<div class="container">
 		<div class="l-contents__main">
 			<main class="l-main" role="main">
+				<?php while ( have_posts() ) : the_post(); ?>
+					<?php the_content(); ?>
+				<?php endwhile; ?>
 
 				<?php
 				$recent_posts = get_posts( array(
