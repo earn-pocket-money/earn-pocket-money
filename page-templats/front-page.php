@@ -36,7 +36,16 @@
 		<div class="l-contents__main">
 			<main class="l-main" role="main">
 				<?php while ( have_posts() ) : the_post(); ?>
-					<?php the_content(); ?>
+				<script>
+				jQuery(function($) {
+					$('.c-entry__content > .wp_social_bookmarking_light, .c-entry__content > .wp_social_bookmarking_light_clear').remove();
+				});
+				</script>
+				<article <?php post_class(); ?>>
+					<div class="c-entry__content">
+						<?php the_content(); ?>
+					</div>
+				</article>
 				<?php endwhile; ?>
 
 				<?php

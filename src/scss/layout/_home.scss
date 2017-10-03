@@ -1,4 +1,12 @@
 .home {
+  .c-entry {
+    @include margin-bottom($gutter * 2);
+
+    &__content {
+      margin-top: 0;
+    }
+  }
+
   .p-front-page-recent-entries {
   }
 
