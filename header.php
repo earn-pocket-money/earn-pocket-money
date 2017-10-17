@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	<?php
+	$google_analytics = get_theme_mod( 'google-analytics' );
+	if ( $google_analytics ) {
+		echo get_theme_mod( 'google-analytics' );
+	}
+	?>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
-<?php
-$google_analytics = get_theme_mod( 'google-analytics' );
-if ( $google_analytics ) {
-	echo get_theme_mod( 'google-analytics' );
-}
-?>
-
 <div id="container" class="l-container">
 
 <header class="l-header" role="banner">
