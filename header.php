@@ -8,7 +8,7 @@
 <?php
 $google_analytics = get_theme_mod( 'google-analytics' );
 if ( $google_analytics ) {
-	echo wp_kses( get_theme_mod( 'google-analytics' ), array( 'script' => array() ) );
+	echo get_theme_mod( 'google-analytics' );
 }
 ?>
 

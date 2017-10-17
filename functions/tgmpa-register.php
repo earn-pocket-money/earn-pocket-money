@@ -27,11 +27,6 @@ function earn_pocket_money_register_required_plugins() {
 			'required'  => true,
 		),
 		array(
-			'name'      => 'AMP',
-			'slug'      => 'amp',
-			'required'  => true,
-		),
-		array(
 			'name'      => 'AMP for WP – Accelerated Mobile Pages',
 			'slug'      => 'accelerated-mobile-pages',
 			'required'  => true,
