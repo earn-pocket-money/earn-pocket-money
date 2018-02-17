@@ -4,6 +4,7 @@ import $ from 'jquery';
 
 export default class Drawer {
   constructor() {
+    this.width  = $(window).width();
     this.drawer = $('#drawer-nav');
     this.btns   = $('[aria-control="drawer-nav"]');
 
@@ -21,7 +22,10 @@ export default class Drawer {
       });
 
       $(window).resize(() => {
-        this.close(btn);
+        if ($(window).width() !== this.width) {
+          this.close(btn);
+          this.width = $(window).width();
+        }
       });
     });
   }
