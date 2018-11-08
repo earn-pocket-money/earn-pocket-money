@@ -102,7 +102,12 @@ if ( ! function_exists( 'earn_pocket_money_wp_head_description' ) ) {
 		$description = strip_tags( SCF::get( 'description' ) );
 
 		if ( ! $description ) {
-			$description = strip_tags( get_the_excerpt() );
+			global $post;
+
+			$description = wp_trim_words( wp_strip_all_tags( strip_shortcodes( $post->post_excerpt ) ) );
+			if ( ! $description ) {
+				$description = wp_trim_words( wp_strip_all_tags( strip_shortcodes( $post->post_content ) ) );
+			}
 		}
 
 		if ( ! $description ) {
